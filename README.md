@@ -12,6 +12,7 @@ As Depopped is taking advantge of Depop's **private** api and mimicing a mobile 
 
 
 An example of user scraping:
+
 <img width="560" alt="Screenshot 2022-03-10 at 22 28 21" src="https://user-images.githubusercontent.com/100610867/157765535-d0c0cc7e-5d73-46f6-b624-169b222f2f11.png">
 
 
