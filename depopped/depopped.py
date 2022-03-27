@@ -3,7 +3,7 @@
 # Name: Depopped
 # Description: A simple API wrapper for Depop.
 # Author: github.com/akimbo7
-# Current line count: 489
+# Current line count: 491
 # - - - - - - - - - - - - -  - - - - - - - - -
 
 import os
