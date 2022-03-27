@@ -5,7 +5,7 @@
 
 A simple API Wrapper for Depop.
 
-Depopped is an expanding collection of private API endpoints, allowing you to automate your account. It works by mimicing a mobile client with the use of mobile User Agnets and Depops' mobile API.
+Depopped is an expanding collection of private API endpoints, allowing you to automate your account. It works by mimicing a mobile client with the use of mobile User Agents and Depops' mobile API.
 
 If you experience any problems, open an issue.
 
