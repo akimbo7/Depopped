@@ -1,6 +1,10 @@
 
 # Depopped
 
+[![MIT License](https://img.shields.io/github/last-commit/akimbo7/Depopped?color=%231B065E&style=flat-square)](https://github.com/akimbo7/Depopped)
+[![MIT License](https://img.shields.io/github/repo-size/akimbo7/Depopped?color=%23FF47DA&style=flat-square)](https://github.com/akimbo7/Depopped)
+[![MIT License](https://img.shields.io/github/v/release/akimbo7/Guildr?color=%23fbe3c5&style=flat-square)](https://github.com/akimbo7/Depopped/releases)
+
 ![LOGO](https://cdn.discordapp.com/attachments/935638977707376674/957708797009342494/New_Project_8.png)
 
 A simple API Wrapper for Depop.
