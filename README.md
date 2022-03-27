@@ -1,19 +1,52 @@
+
 # Depopped
 
-An API Wrapper for the reselling app, Depop. Depopped simulates a mobile client, almost perfectly, with the use of Depops private API and mobile User Agents.
+![LOGO](https://cdn.discordapp.com/attachments/935638977707376674/957708797009342494/New_Project_8.png)
 
-#
-This lib is currently being made but already has many features such as user scraping, sending chosen users a notification, fetching Depop's current banned word list and much more!
+A simple API Wrapper for Depop.
 
-Depopped should also include a DM feature - Currently figuring out how to get this to work. Considering you can DM a user regardless of whether you are following them or not, this should be pretty OP for mass DMing ;)
+Depopped is an expanding collection of private API endpoints, allowing you to automate your account. It works by mimicing a mobile client with the use of mobile User Agnets and Depops' mobile API.
 
+If you experience any problems, open an issue.
 
-As Depopped is taking advantge of Depop's **private** api and mimicing a mobile client, there is very little ratelimiting and sanctions are unheard of, even after mass following then unfollowing over 10,000 users LOL.
-
-
-An example of user scraping:
-
-<img width="560" alt="Screenshot 2022-03-10 at 22 28 21" src="https://user-images.githubusercontent.com/100610867/157765535-d0c0cc7e-5d73-46f6-b624-169b222f2f11.png">
+*Have fun :)*
 
 
-**Will be released soon :)**
+## Installation
+
+```
+python3 -m pip install --user --upgrade git+https://github.com/akimbo7/Depopped.git#egg=depopped
+```
+
+**Requirements**:
+
+- colorama >= 0.4.4
+- requests >= 2.27.1
+- uuid >= 1.30
+
+## Remove
+
+```
+python3 -m pip uninstall git+https://github.com/akimbo7/Depopped.git#egg=depopped
+```
+
+## Example Usage
+
+```python
+from Depopped import depopped
+
+client = depopped.Client(log = True, agent = 'ios')
+
+username = 'akimbo7'
+password = 'Password123'
+
+#returns the requests.py response
+x = client.login(username = email, password = password)
+
+if x.status_code == 200:
+    print(f'Logged in as {username}')
+else:
+    print(f'Error logging in, json: {x.json()}')
+```
+
+**Check out the full feature list [here](https://github.com/akimbo7/Depopped/blob/main/usage/USAGE.md)**
