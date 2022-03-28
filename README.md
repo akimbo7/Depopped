@@ -45,7 +45,7 @@ username = 'akimbo7'
 password = 'Password123'
 
 #returns the requests.py response
-x = client.login(username = email, password = password)
+x = client.login(username = username, password = password)
 
 if x.status_code == 200:
     print(f'Logged in as {username}')
