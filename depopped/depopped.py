@@ -295,7 +295,7 @@ class Client:
                     "sdk": {
                         "device_battery": 69,
                         "device_model": "Depopped",
-                        "device_os": "12.3.4",
+                        "device_os": "1.0.0",
                         "device_storage": 69,
                         "device_total_memory": 6969
                     }
@@ -409,12 +409,12 @@ class Client:
 
         payload = {
             "message": str(message),
-            "sender_app_version": "6.96.9",
-            "sender_device": "akimbo7",
-            "sender_name": "akimbo7",
-            "sender_os_version": "6.96.9",
-            "sender_system": "akimboOS",
-            "sender_username": "akimbo",
+            "sender_app_version": "1.0.0",
+            "sender_device": "Depopped",
+            "sender_name": "Depopped",
+            "sender_os_version": "1.0.0",
+            "sender_system": "Depopped",
+            "sender_username": "Depopped",
             "target_product": int(listingID),
             "user": int(self.getMyID())}
 
